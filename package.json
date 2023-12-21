@@ -2,7 +2,12 @@
   "name": "@micro-frontend/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "react-build": "nx run react-app:build",
+    "react-start": "nx serve react-app",
+    "remix-build": "nx run remix-app:build",
+    "remix-start": "cd apps/remix-app && npx remix-serve build/index.js"
+  },
   "private": true,
   "dependencies": {
     "@remix-run/node": "^2.3.0",
