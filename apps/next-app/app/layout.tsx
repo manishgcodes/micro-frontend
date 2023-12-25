@@ -1,4 +1,5 @@
 import './global.css';
+import Link from "next/link";
 
 export const metadata = {
   title: 'Welcome to next-app',
@@ -12,7 +13,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="next-app-layout">
+          <header className="header">
+            <div className="container">I am Header</div>
+          </header>
+          <div className="container layout-body">
+            <div className="sidebar">
+              <nav className='nav-list' >
+                <Link href="/react-app" className='nav'>React-app</Link>
+                <Link href="/remix-app" className='nav'>Remix-app</Link>
+                <Link href="/svelte-app" className='nav'>Svelte-app</Link>
+                <Link href="/chat-app" className='nav'>Chat-app</Link>
+              </nav>
+            </div>
+            <div className="page-body">
+              {children}
+            </div>
+          </div>
+        </div>
+      </body>
     </html>
   );
 }

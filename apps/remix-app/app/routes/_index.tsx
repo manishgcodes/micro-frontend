@@ -2,6 +2,12 @@ export default function Index() {
   return (
     <div style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.4' }}>
       <h1>Welcome to Remix</h1>
+      {/* <iframe
+        src="http://localhost:4201/"
+        className="iframe-container"
+        title="Iframe Example"
+        style={{ height: "100vh", width: "100vw" }}
+      /> */}
       <ul>
         <li>
           <a

@@ -1,0 +1,9 @@
+.svelte-page {
+  height: 100%;
+  width: 100%;
+  .iframe-container {
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+}

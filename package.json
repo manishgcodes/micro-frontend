@@ -8,7 +8,7 @@
     "next-build": "nx run next-app:build",
     "next-start": "nx serve next-app",
     "remix-build": "nx run remix-app:build",
-    "remix-start": "cd apps/remix-app && npx remix-serve build/index.js"
+    "remix-start": "nx serve remix-app"
   },
   "private": true,
   "dependencies": {

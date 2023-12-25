@@ -29,7 +29,8 @@
       "configurations": {
         "development": {
           "buildTarget": "react-app:build:development",
-          "hmr": true
+          "hmr": true,
+          "port": 4201
         },
         "production": {
           "buildTarget": "react-app:build:production",
