@@ -30,7 +30,7 @@
         "development": {
           "buildTarget": "react-app:build:development",
           "hmr": true,
-          "port": 4201
+          "port": 4202
         },
         "production": {
           "buildTarget": "react-app:build:production",

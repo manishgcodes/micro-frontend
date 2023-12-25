@@ -29,7 +29,7 @@
         "development": {
           "buildTarget": "next-app:build:development",
           "dev": true,
-          "port": 4205
+          "port": 4201
         },
         "production": {
           "buildTarget": "next-app:build:production",
