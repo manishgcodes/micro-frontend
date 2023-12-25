@@ -77,5 +77,6 @@
       }
     }
   },
-  "nxCloudAccessToken": "ODA5YjVlMGEtYTU2Yi00NDAzLWJjYzUtNjI0OWQzNmM4N2I2fHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "ODA5YjVlMGEtYTU2Yi00NDAzLWJjYzUtNjI0OWQzNmM4N2I2fHJlYWQtd3JpdGU=",
+  "plugins": ["@nxext/svelte"]
 }
