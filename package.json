@@ -10,7 +10,8 @@
     "remix-build": "nx run remix-app:build",
     "remix-start": "nx serve remix-app",
     "svelte-build": "nx run svelte-app:build",
-    "svelte-start": "nx serve svelte-app"
+    "svelte-start": "nx serve svelte-app",
+    "start": "nx run-many -t serve"
   },
   "private": true,
   "dependencies": {
@@ -19,7 +20,9 @@
     "@remix-run/react": "^2.3.0",
     "@remix-run/serve": "^2.3.0",
     "@swc/helpers": "~0.5.2",
+    "@types/js-cookie": "^3.0.6",
     "isbot": "^3.6.8",
+    "js-cookie": "^3.0.5",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",

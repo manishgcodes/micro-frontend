@@ -12,7 +12,7 @@ import { Header, headerLinks } from './components/Header';
 export const meta: MetaFunction = () => [
   {
     charset: 'utf-8',
-    title: 'New Remix App',
+    title: 'My Host Remix App',
     viewport: 'width=device-width,initial-scale=1',
   },
 ];
