@@ -19,6 +19,7 @@ export function App() {
       sameSite: "None",
       secure: true,
     })
+    Cookies.set("hostApp", "Next-js")
   }, [])
 
   const remoteApp = Cookies.get("remoteApp");

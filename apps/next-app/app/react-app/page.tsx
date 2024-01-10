@@ -1,10 +1,19 @@
 "use client"
-import { ChangeEvent, LegacyRef, useRef } from 'react';
+import { ChangeEvent, LegacyRef, useEffect, useRef } from 'react';
+import Cookies from "js-cookie";
 import './reactPage.css';
 
 export default async function Page() {
 
     const ref = useRef<HTMLIFrameElement>();
+
+    useEffect(() => {
+        Cookies.set("Test-1", "with config", {
+            sameSite: "None",
+            secure: true,
+        })
+        Cookies.set("Test-2", "No config")
+    }, [])
 
     const sendMessage = (message: string) => {
         const iframe = ref.current;

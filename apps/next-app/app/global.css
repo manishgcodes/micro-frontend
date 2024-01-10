@@ -37,9 +37,9 @@
       padding: 0 24px 40px 32px;
 
       nav {
-        display: flex;
         flex-direction: column;
         gap: 10px;
+        display: flex;
       }
 
       .nav-item {
