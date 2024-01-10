@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "react-build": "nx run react-app:build",
-    "react-start": "nx serve react-app",
     "next-build": "nx run next-app:build",
     "next-start": "nx serve next-app",
+    "react-build": "nx run react-app:build",
+    "react-start": "nx serve react-app",
     "remix-build": "nx run remix-app:build",
     "remix-start": "nx serve remix-app",
     "svelte-build": "nx run svelte-app:build",

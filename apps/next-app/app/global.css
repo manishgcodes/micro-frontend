@@ -1,3 +1,6 @@
+* {
+  all: unset;
+}
 .next-app-layout {
   width: 100%;
 
@@ -33,13 +36,13 @@
       display: flex;
       padding: 0 24px 40px 32px;
 
-      .nav-list {
+      nav {
         display: flex;
         flex-direction: column;
         gap: 10px;
       }
 
-      .nav {
+      .nav-item {
         padding: 1rem;
         font-size: 1.5rem;
         font-weight: bold;

@@ -22,7 +22,8 @@ export default async function Page() {
             <input name="message" placeholder='next-js input' onChange={handleChange} />
             <iframe
                 ref={ref as LegacyRef<HTMLIFrameElement>}
-                src="https://micro-frontend-blush.vercel.app/"
+                src="https://micro-frontend-six.vercel.app/"
+                // src="http://localhost:4202"
                 className="iframe-container"
                 title="Iframe Example"
             />

@@ -20,11 +20,11 @@ export default function RootLayout({
           </header>
           <div className="container layout-body">
             <div className="sidebar">
-              <nav className='nav-list' >
-                <Link href="/react-app" className='nav'>React-app</Link>
-                <Link href="/remix-app" className='nav'>Remix-app</Link>
-                <Link href="/svelte-app" className='nav'>Svelte-app</Link>
-                <Link href="/chat-app" className='nav'>Chat-app</Link>
+              <nav >
+                <Link href="/react-app" className='nav-item'>React-app</Link>
+                <Link href="/remix-app" className='nav-item'>Remix-app</Link>
+                {/* <Link href="/svelte-app" className='nav-item'>Svelte-app</Link>
+                <Link href="/chat-app" className='nav-item'>Chat-app</Link> */}
               </nav>
             </div>
             <div className="page-body">
